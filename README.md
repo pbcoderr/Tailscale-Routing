@@ -1,10 +1,15 @@
-# Tailscale Routing 1.0.0 — Compact
+<img width="1774" height="887" alt="Tailscale-Routing-banner-v1 0 0-pb_coder" src="https://github.com/user-attachments/assets/ec522589-03ad-42dd-8eaa-a5e9b756b9d0" />
 
-Отдельное приложение Windows x64 для исключений маршрутизации Tailscale, выделенное из Switcher 1.1.0.2. Не требует Zapret и не управляет его службой.
+
+Отдельное приложение Windows x64 для исключений маршрутизации Tailscale
 
 ## Оформление
 
-Компактное окно 740 × 470 в стиле баннера: тёмно-синий фон, голубые акценты, девять светящихся точек, версия 1.0.0 и подпись pb_coder. Минимальный размер — 700 × 430. Журнал свёрнут по умолчанию; нажмите «Журнал», чтобы раскрыть его. При ошибках он открывается автоматически. Перемещение правил, набор .ru / .рф / .su и помощь доступны в меню «Ещё».
+<img width="700" height="430" alt="window-minimum" src="https://github.com/user-attachments/assets/7bb58d65-095e-445d-899d-21b609d0c938" />
+<img width="700" height="526" alt="window-journal" src="https://github.com/user-attachments/assets/61ef3108-540f-4e7c-a143-1868a926d937" />
+<img width="740" height="470" alt="window-inactive" src="https://github.com/user-attachments/assets/5db3132f-744c-4167-ad94-b338dc85651e" />
+<img width="740" height="470" alt="window-active" src="https://github.com/user-attachments/assets/47d89cf8-4fb4-4f7d-a955-e9f0e0d48604" />
+
 
 ## Запуск
 
@@ -26,7 +31,7 @@
 
 ## Ограничения
 
-Один активный интернет-интерфейс с IPv4-шлюзом. Режим IPv4, унаследованный от исходного проекта; обычные IPv6-соединения через временный туннель блокируются для перехода приложений на IPv4. Не запускайте маршрутизацию Switcher одновременно: Tailscale Routing обнаруживает его активный адаптер перед стартом. Приложение не является официальным продуктом Tailscale.
+Один активный интернет-интерфейс с IPv4-шлюзом. Режим IPv4, унаследованный от исходного проекта; обычные IPv6-соединения через временный туннель блокируются для перехода приложений на IPv4.
 
 ## Исходники и сборка
 
